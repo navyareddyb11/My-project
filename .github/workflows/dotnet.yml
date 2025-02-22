@@ -40,7 +40,7 @@ jobs:
         with:
           image: navyareddyb11/navyareddyrepo
           registry: docker.io
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: ${{ Secrets and variables.DOCKER_USERNAME }}
+          password: ${{ Secrets and variables.DOCKER_PASSWORD }}
      
           
